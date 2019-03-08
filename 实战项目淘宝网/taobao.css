@@ -1,0 +1,281 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+}
+body{
+    background-color: burlywood;
+}
+
+.taobao {
+    width: 100% ;
+    min-width: 1500px;
+    max-width: 1800px;
+}
+
+.top{
+    height: 40px;
+    background-color: aliceblue;
+}
+.top .demo1 li{
+    float: left;
+    list-style: none;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.top .demo1 .list1 option{
+    width: auto;
+    padding: 0 2%;
+    margin: 0;
+}
+.top .demo1 .list2{
+    color: red;
+}
+.top .demo1 .lisxt3 :hover{
+    color: red;
+}
+.top .demo2 li{
+    float: right;
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.top .demo2 li:hover{
+    color: red;
+}
+.top .demo2 .list2::before{
+    content: "";
+    display: inline-block;
+    width:25px ;
+    height: 25px;
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551609014556&di=fb0ce6e235ef20188a22cecaad1a3405&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fcf3f35b88beb7236f6fcdb6a9c2f0729a0a1b4313911-ie3tVL_fw658");
+    background-size: 100% 100%;
+    vertical-align: -2px;
+    margin-right: 10px;
+}
+.top .demo2 .list2::after{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551609418815&di=5d7751626d2e3eadcc619c383029067f&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic3%2Fcover%2F02%2F44%2F52%2F59e54a2e597a4_610.jpg");
+    background-size: 100% 100%;
+    margin-left: 10px;
+    vertical-align: 5px;
+}
+.top .demo2 .list3::before{
+    content: "";
+    display: inline-block;
+    width:25px ;
+    height: 25px;
+    background-image: url("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=187024697,1767269426&fm=27&gp=0.jpg");
+    background-size: 100% 100%;
+    vertical-align: -2px;
+    margin-right: 10px;
+}
+.top .demo2 .list3::after{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551609418815&di=5d7751626d2e3eadcc619c383029067f&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic3%2Fcover%2F02%2F44%2F52%2F59e54a2e597a4_610.jpg");
+    background-size: 100% 100%;
+    margin-left: 10px;
+    vertical-align: 5px;
+}
+.top2{
+    background-color: blue;
+    height: 150px;
+}
+.top2 img{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.wrapper{
+    height: 270px;
+}
+.wrapper .content{
+    margin: 0 auto;
+    width: 1300px;
+    height: 250px;
+    background-color: white;
+}
+.wrapper .content .search-top{
+    float: left;
+    margin-top: 30px;
+    margin-left: 5px;
+    display:inline-block ;
+    text-decoration: none;
+    color: #ff5000;
+    width: 290px;
+    height: 221px;
+    background-size: 292px 223px;
+    background-image: url("https://img.alicdn.com/tfs/TB1TG0RJ6DpK1RjSZFrXXa78VXa-190-121.gif");
+    white-space: nowrap;
+    text-indent: 300px;
+    overflow: hidden;
+}
+.wrapper .content li{
+    display: inline-block;
+    margin-top: 40px;
+    list-style: none;
+    margin-left: 100px;
+    float: left;
+}
+.wrapper .content .demo3 .list4{
+    background-color: #ff5000;
+    color: white;
+    border-radius: 50px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+}
+.wrapper .content .demo3 .list5{
+    color: #ff5000;
+}
+.wrapper .content .demo3 .list6{
+    color: #ff5000;
+}
+.wrapper .content  .search input{
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    width: 400px;
+    height: 50px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: none;
+}
+.wrapper .content .search .btn{
+    cursor: pointer;
+    position: absolute;
+    background-color: #ff5000;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100px;
+    height: 54px;
+    top: 300px;
+    margin-left: 30px;
+    border: none;
+}
+.wrapper .content .search-bottom {
+    position: absolute;
+    top: 350px;
+    left: 550px;
+    min-width: 540px;
+}
+.wrapper .content .search-bottom a{
+    font-size: 10px;
+    text-decoration: none;
+}
+.wrapper .content .search-bottom .list1,.list3,.list6{
+    color: #ff5000;
+}
+.wrapper .content .search-bottom .list2:hover,.list4:hover,.list5:hover,.list7:hover,.list8:hover,.list9:hover{
+    color: #ff5000;
+}
+.wrapper .content .search-bot{
+    width: 1300px;
+    position: absolute;
+    top: 450px;
+}
+.wrapper .content .search-bot .list1{
+    width: 150px;
+    height: 36px;
+    float: left;
+    background-color: #ff5000;
+}
+.wrapper .content .search-bot .list1 li{
+    width: 150px;
+    height: 36px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+.wrapper .content .search-bot .list2{
+    float: left;
+    width: 340px;
+    height: 36px;
+    background-color: #ff5000;
+}
+.wrapper .content .search-bot .list2 li{
+    margin: 0px;
+    margin-left: 5px;
+    width: 100px;
+    color: white;
+    text-align: center;
+}
+.wrapper .content .search-bot .list3{
+    width: 510px;
+    height: 36px;
+    float: left;
+    background-color: #ff5000;
+}
+.wrapper .content .search-bot .list3 li{
+    margin: 0px;
+    margin-left: 5px;
+    width: 95px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.wrapper .content .search-bot .list4{
+    width: 300px;
+    height: 36px;
+    float: left;
+    background-color: #ff5000;
+}
+.wrapper .content .search-bot .list4 li{
+    margin: 0px;
+    margin-left: 5px;
+    width: 95px;
+    color: white;
+    text-align: center;
+    font-size: 23px;
+}
+.left{
+    height: 400px;
+    margin-top: 20px;
+}
+.left .content{
+    margin: 0 auto;
+    width: 1300px;
+    height: 250px;
+}
+.left .content .left1{
+    width: 180px;
+    background-color: white;
+}
+.left .content .left1 ul li{
+    list-style: none;
+}
+left .content .left1 ul li::after{
+    content: "";
+    display: inline-block;
+    height: 28px;
+    background-image: url("https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3239917553,289285541&fm=26&gp=0.jpg");
+    background-size: 100% 100%;
+}
+
+
+.left .content .left1 ul li a {
+    display: inline-block;
+    height: 17px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.left .content .left1 ul li a:hover{
+    color: #ff5000;
+}
+.left .content .left1 ul li .demoo:after{
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url("https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3239917553,289285541&fm=26&gp=0.jpg");
+    background-size: 100% 100%;
+    vertical-align: -5px;
+
+}
